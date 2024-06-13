@@ -23,10 +23,10 @@ namespace API.Entities
         public List<Photo> Photos { get; set; } = new();
 
         //Adding a DateTime extension method to calculate Age:1
-        public int GetAge()
-        {
-            return DateOfBirth.CalcuateAge();
-        }
+        //public int GetAge()
+        //{
+        //    return DateOfBirth.CalcuateAge();
+        //}
 
     }
 }

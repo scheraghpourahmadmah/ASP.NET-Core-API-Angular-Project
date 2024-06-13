@@ -4,7 +4,7 @@ namespace API.DTOs
 {
     public class RegisterDto
     {
-        [Required] 
+        [Required(ErrorMessage = "This website requires username")] 
         public string Username { get; set; }
         [Required]
         [StringLength(8,MinimumLength = 4)]
